@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { Row, Container, Col } from "react-bootstrap";
+import Im1 from "../src/images/aditya.jpg"
+import Im2 from "../src/images/soham.jpeg"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Here we go again -__-
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Row>
+          <p>
+            <img src={Im1} width="200px"  height="200px"/>
+            <img src={Im2} width="200px"  height="200px"/>
+
+
+            
+          </p>
+        </Row>
+      </Container>
     </div>
   );
 }
