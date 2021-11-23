@@ -12,7 +12,7 @@ function App() {
           <p>
             <img src={Im1} width="200px"  height="200px"/>
             <img src={Im2} width="200px"  height="200px"/>
-            <img src={Im3} width="200px"  height="200px"/>
+            <img src={Im3} width="250px"  height="200px"/>
 
 
             
