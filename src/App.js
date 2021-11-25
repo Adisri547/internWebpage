@@ -26,7 +26,7 @@ function App() {
             <div class="image">
               <img class="image__img" src={Soh} />
               <div class="image__overlay image__overlay--primary">
-                <div class="image__title">Soham Dutta</div>
+                <div class="image__title">Soham</div>
                 <img src={Ico} />
               </div>
             </div>
