@@ -1,33 +1,51 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Row, Container, Col } from "react-bootstrap";
 import Adi from "../src/images/aditya.jpg";
 import Soh from "../src/images/soham.jpeg";
 import Ash from "../src/images/ashish.jpg";
 import Sid from "../src/images/sid.jpg";
+import Shrey from "../src/images/SHREYANSH.jpeg";
 function App() {
   return (
     <div className="App">
       <Container>
         <Row>
-          <img
-            src={Adi}
-            width="200px"
-            height="200px"
-           
-          />
-
-          <img
-            src={Soh}
-            width="200px"
-            height="200px"
-           
-          />
-           <img src={Ash} width="200px" height="200px" />
+          <Col>
+            <div class="image">
+              <img class="image__img" src={Adi} />
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Aditya Srivastav</div>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <div class="image">
+              <img class="image__img" src={Soh} />
+              <div class="image__overlay image__overlay--primary">
+                <div class="image__title">Soham Dutta</div>
+              </div>
+            </div>
+          </Col>
+          <div class="image">
+            <img class="image__img" src={Ash} />
+            <div class="image__overlay image__overlay--primary">
+              <div class="image__title">Ashish Mishra</div>
+            </div>
+          </div>
         </Row>
         <Row>
-         
-          <img src={Sid} width="200px" height="200px" />
+          <div class="image">
+            <img class="image__img" src={Sid} />
+            <div class="image__overlay image__overlay--primary">
+              <div class="image__title">Siddhant Banerjee</div>
+            </div>
+          </div>
+          <div class="image">
+            <img class="image__img" src={Shrey} />
+            <div class="image__overlay image__overlay--primary">
+              <div class="image__title">Shreyansh Rai</div>
+            </div>
+          </div>
         </Row>
       </Container>
     </div>
