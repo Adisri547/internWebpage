@@ -34,7 +34,7 @@ function App() {
           <div class="image">
             <img class="image__img" src={Ash} />
             <div class="image__overlay image__overlay--primary">
-              <div class="image__title">Ashish M</div>
+              <div class="image__title">Ashish </div>
               <img src={Ico} />
             </div>
           </div>
