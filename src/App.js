@@ -5,7 +5,7 @@ import Soh from "../src/images/soham.jpeg";
 import Ash from "../src/images/ashish.jpg";
 import Sid from "../src/images/sid.jpg";
 import Shrey from "../src/images/SHREYANSH.jpeg";
-import Ico from "../src/Social Icons/Social Icons/Github.svg"
+import Ico from "../src/Social Icons/Social Icons/Github.svg";
 function App() {
   return (
     <div className="App">
@@ -16,8 +16,10 @@ function App() {
               <img class="image__img" src={Adi} />
               <div class="image__overlay image__overlay--primary">
                 <div class="image__title">Aditya Srivastav</div>
-                <div class="icon"> 
-                <img src={Ico} />
+                <div class="icon">
+                  <a href="https://github.com/Adisri547">
+                    <img src={Ico} />
+                  </a>
                 </div>
               </div>
             </div>
