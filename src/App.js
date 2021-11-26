@@ -8,6 +8,7 @@ import Shrey from "../src/images/SHREYANSH.jpeg";
 import Git from "../src/Social Icons/Social Icons/Github.svg"
 import Link from "../src/Social Icons/Social Icons/Linkedin.svg"
 import Insta from "../src/Social Icons/Social Icons/Instagram.svg"
+
 function App() {
   return (
     <div className="App">
@@ -18,10 +19,12 @@ function App() {
               <img class="image__img" src={Adi} />
               <div class="image__overlay image__overlay--primary">
                 <div class="image__title">Aditya Srivastav</div>
+
                 <div class="icon"> 
                 <img src={Git} />
                 <img src={Link} />
                 <img src={Insta} />
+
                 </div>
               </div>
             </div>
