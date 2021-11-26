@@ -20,13 +20,13 @@ function App() {
                 <div class="image__title">Aditya Srivastav</div>
                 <div class="icon">
                   <a href="https://github.com/Adisri547">
-                    <img src={Git} height="30px" width="30px"/>
+                    <img src={Git} height="35px" width="35px"/>
                   </a>
                   <a href="https://www.linkedin.com/in/aditya-srivastav-308751157/">
-                    <img src={Link} height="30px" width="30px"/>
+                    <img src={Link} height="35px" width="35px"/>
                   </a>
                   <a href="https://www.instagram.com/adi.sri547/">
-                    <img src={Insta} height="30px" width="30px"/>
+                    <img src={Insta} height="35px" width="35px"/>
                   </a>
                 </div>
               </div>
@@ -37,20 +37,30 @@ function App() {
               <img class="image__img" src={Soh} />
               <div class="image__overlay image__overlay--primary">
                 <div class="image__title">Soham</div>
-                <img src={Git} height="20px" width="20px"/>
-                <img src={Link} height="20px" width="20px" />
-                <img src={Insta} height="20px" width="20px" />
+                <div class="icon">
+                <img src={Git} height="35px" width="35px"/>
+                <img src={Link} height="35px" width="35px" />
+                <img src={Insta} height="35px" width="35px" />
               </div>
+            </div>
             </div>
           </Col>
           <div class="image">
             <img class="image__img" src={Ash} />
             <div class="image__overlay image__overlay--primary">
               <div class="image__title">Ashish Mishra</div>
-              <img src={Git} height="20px" width="20px"/>
-              <img src={Link} height="20px" width="20px"/>
-              <img src={Insta} height="20px" width="20px"/>
+              <div class="icon">
+              <a href="https://github.com/Ash1912">
+                    <img src={Git} height="35px" width="35px"/>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ashish-kumar-mishra-616321206">
+                    <img src={Link} height="35px" width="35px"/>
+                  </a>
+                  <a href="https://instagram.com/a_s_h__1912?utm_medium=copy_link">
+                    <img src={Insta} height="35px" width="35px"/>
+                  </a>
             </div>
+          </div>
           </div>
         </Row>
         <Row>
@@ -58,19 +68,23 @@ function App() {
             <img class="image__img" src={Sid} />
             <div class="image__overlay image__overlay--primary">
               <div class="image__title">Siddhant Banerjee</div>
-              <img src={Git} height="20px" width="20px"/>
-              <img src={Link} height="20px" width="20px"/>
-              <img src={Insta} height="20px" width="20px"/>
+              <div class="icon">
+              <img src={Git} height="35px" width="35px"/>
+              <img src={Link} height="35px" width="35px"/>
+              <img src={Insta} height="35px" width="35px"/>
             </div>
+          </div>
           </div>
           <div class="image">
             <img class="image__img" src={Shrey} />
             <div class="image__overlay image__overlay--primary">
               <div class="image__title">Shreyansh Rai</div>
-              <img src={Git} height="20px" width="20px"/>
-              <img src={Link} height="20px" width="20px"/>
-              <img src={Insta} height="20px" width="20px"/>
+              <div class="icon">
+              <img src={Git} height="35px" width="35px"/>
+              <img src={Link} height="35px" width="35px"/>
+              <img src={Insta} height="35px" width="35px"/>
             </div>
+          </div>
           </div>
         </Row>
       </Container>
