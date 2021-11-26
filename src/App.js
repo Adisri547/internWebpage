@@ -8,6 +8,7 @@ import Shrey from "../src/images/SHREYANSH.jpeg";
 import Git from "../src/Social Icons/Social Icons/Github.svg";
 import Link from "../src/Social Icons/Social Icons/Linkedin.svg";
 import Insta from "../src/Social Icons/Social Icons/Instagram.svg";
+import Twit from "../src/Social Icons/Social Icons/Twitter.svg";
 function App() {
   return (
     <div className="App">
@@ -38,9 +39,15 @@ function App() {
               <div class="image__overlay image__overlay--primary">
                 <div class="image__title">Soham</div>
                 <div class="icon">
-                <img src={Git} height="35px" width="35px"/>
-                <img src={Link} height="35px" width="35px" />
-                <img src={Insta} height="35px" width="35px" />
+                <a href=" https://github.com/shm-dsgn">
+                    <img src={Git} height="35px" width="35px"/>
+                  </a>
+                  <a href="www.linkedin.com/in/shm-dsgn">
+                    <img src={Link} height="35px" width="35px"/>
+                  </a>
+                  <a href=" https://www.instagram.com/shm_dtt/">
+                    <img src={Insta} height="35px" width="35px"/>
+                  </a>
               </div>
             </div>
             </div>
@@ -69,9 +76,15 @@ function App() {
             <div class="image__overlay image__overlay--primary">
               <div class="image__title">Siddhant Banerjee</div>
               <div class="icon">
-              <img src={Git} height="35px" width="35px"/>
-              <img src={Link} height="35px" width="35px"/>
-              <img src={Insta} height="35px" width="35px"/>
+              <a href=" https://github.com/Sidoryx">
+                    <img src={Git} height="35px" width="35px"/>
+                  </a>
+                  <a href="https://www.linkedin.com/in/sidbanerjee510/">
+                    <img src={Link} height="35px" width="35px"/>
+                  </a>
+                  <a href="https://twitter.com/sidstwt">
+                    <img src={Twit} height="35px" width="35px"/>
+                  </a>
             </div>
           </div>
           </div>
@@ -80,9 +93,15 @@ function App() {
             <div class="image__overlay image__overlay--primary">
               <div class="image__title">Shreyansh Rai</div>
               <div class="icon">
-              <img src={Git} height="35px" width="35px"/>
-              <img src={Link} height="35px" width="35px"/>
-              <img src={Insta} height="35px" width="35px"/>
+              <a href="https://github.com/shreyanshrai2401">
+                    <img src={Git} height="35px" width="35px"/>
+                  </a>
+                  <a href="www.linkedin.com/in/shreyansh-rai-0275221bb">
+                    <img src={Link} height="35px" width="35px"/>
+                  </a>
+                  <a href="https://www.instagram.com/shreyanshrai2401/">
+                    <img src={Insta} height="35px" width="35px"/>
+                  </a>
             </div>
           </div>
           </div>
