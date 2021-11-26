@@ -3,7 +3,7 @@ import { Row, Container, Col } from "react-bootstrap";
 import Adi from "../src/images/aditya.jpg";
 import Soh from "../src/images/soham.jpeg";
 import Ash from "../src/images/ashish.jpg";
-import Sid from "../src/images/sid.jpg";
+import Sid from "../src/images/sidNew.jpg";
 import Shrey from "../src/images/SHREYANSH.jpeg";
 import Git from "../src/Social Icons/Social Icons/Github.svg";
 import Link from "../src/Social Icons/Social Icons/Linkedin.svg";
