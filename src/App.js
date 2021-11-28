@@ -35,16 +35,16 @@ function App() {
               <br />
               <div className="icon">
                 <a href="https://github.com/Adisri547" target="_blank">
-                  <img src={Git} height="40px" width="40px" />
+                  <img src={Git} height="35px" width="35px" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/aditya-srivastav-308751157/"
                   target="_blank"
                 >
-                  <img src={Link} height="40px" width="40px" />
+                  <img src={Link} height="35px" width="35px" />
                 </a>
                 <a href="https://www.instagram.com/adi.sri547/" target="_blank">
-                  <img src={Insta} height="40px" width="40px" />
+                  <img src={Insta} height="35px" width="35px" />
                 </a>
               </div>
             </div>
@@ -63,13 +63,13 @@ function App() {
               <br />
               <div className="icon">
                 <a href=" https://github.com/shm-dsgn" target="_blank">
-                  <img src={Git} height="40px" width="40px" />
+                  <img src={Git} height="35px" width="35px" />
                 </a>
                 <a href="https://www.linkedin.com/in/shm-dsgn" target="_blank">
-                  <img src={Link} height="40px" width="40px" />
+                  <img src={Link} height="35px" width="35px" />
                 </a>
                 <a href=" https://www.twitter.com/shm_dsgn/" target="_blank">
-                  <img src={Twit} height="40px" width="40px" />
+                  <img src={Twit} height="35px" width="35px" />
                 </a>
               </div>
             </div>
@@ -117,16 +117,16 @@ function App() {
               <br />
               <div className="icon">
                 <a href=" https://github.com/Sidoryx" target="_blank">
-                  <img src={Git} height="40px" width="40px" />
+                  <img src={Git} height="35px" width="35px" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/sidbanerjee510/"
                   target="_blank"
                 >
-                  <img src={Link} height="40px" width="40px" />
+                  <img src={Link} height="35px" width="35px" />
                 </a>
                 <a href="https://twitter.com/sidstwt" target="_blank">
-                  <img src={Twit} height="40px" width="40px" />
+                  <img src={Twit} height="35px" width="35px" />
                 </a>
               </div>
             </div>
