@@ -1,24 +1,91 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Bold"), url("../src/fonts/Gilroy-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Regular"), url("../src/fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Medium"), url("../src/fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+.Header {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 25px;
+}
+
+.App-logo {
+  width: 100px;
+}
+
+.text1 {
+  width: 25%;
+  
+  background-color: #B4BEF0;
+  font-family: 'Gilroy-Bold';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  text-align: left;
+}
+
+.text2 {
+  width: 25%;
+  
+  background-color: #FFF7B2;
+  font-family: 'Gilroy-Bold';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  text-align: left;
+}
+
+.text3 {
+  width: 25%;
+  
+  background-color: #A3E8DD;
+  font-family: 'Gilroy-Bold';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  text-align: left;
+}
+
 .image {
   position: relative;
-  width: 200px;
+  width: 25%;
 }
 
 .image__img {
   display: block;
-
-  width:200px ;
-  height:200px;
+  width:100%;
 }
 
 .image__overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.6);
   color: #ffffff;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Gilroy-Medium';
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,9 +94,6 @@
   transition: opacity 0.25s;
 }
 
-.image__overlay--blur {
-  backdrop-filter: blur(5px);
-}
 
 .image__overlay > * {
   transform: translateY(20px);
@@ -45,8 +109,12 @@
 }
 
 .image__title {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: normal;
 }
 
+.Row {
+  display: flex;
+  flex-direction: row;
+}
 
