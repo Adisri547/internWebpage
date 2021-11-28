@@ -80,7 +80,7 @@ function App() {
           <div className="image">
             <img className="image__img" src={Ash} alt="photo" />
             <div className="image__overlay image__overlay--primary">
-              <div className="image__title">Ashish Mishra</div>
+              <div className="image__title">Ashish Kumar Mishra</div>
               <br />
               <div className="icon">
                 <a href="https://github.com/Ash1912" target="_blank">
