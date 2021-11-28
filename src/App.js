@@ -102,7 +102,7 @@ function App() {
 
                 <div className="text3">
                   <p>
-                    ..from MSC KIIT<br/> Project Wing.
+                    ..from <br/>MSC KIIT<br/> Project Wing.
                   </p>
                 </div>
           
