@@ -40,13 +40,13 @@ function App() {
                     <br/>
                     <div className="icon">
                       <a href="https://github.com/Adisri547" target="_blank">
-                        <img src={Git} height="28px" width="28px"/>
+                        <img src={Git} height="35px" width="35px"/>
                       </a>
                       <a href="https://www.linkedin.com/in/aditya-srivastav-308751157/" target="_blank">
-                        <img src={Link} height="28px" width="28px"/>
+                        <img src={Link} height="35px" width="35px"/>
                       </a>
                       <a href="https://www.instagram.com/adi.sri547/" target="_blank">
-                        <img src={Insta} height="28px" width="28px"/>
+                        <img src={Insta} height="35px" width="35px"/>
                       </a>
                     </div>
                   </div>
@@ -65,13 +65,13 @@ function App() {
                     <br/>
                     <div className="icon">
                     <a href=" https://github.com/shm-dsgn" target="_blank">
-                        <img src={Git} height="28px" width="28px"/>
+                        <img src={Git} height="35px" width="35px"/>
                       </a>
                       <a href="https://www.linkedin.com/in/shm-dsgn" target="_blank">
-                        <img src={Link} height="28px" width="28px"/>
+                        <img src={Link} height="35px" width="35px"/>
                       </a>
                       <a href=" https://www.twitter.com/shm_dsgn/" target="_blank">
-                        <img src={Twit} height="28px" width="28px"/>
+                        <img src={Twit} height="35px" width="35px"/>
                       </a>
                   </div>
                 </div>
@@ -84,17 +84,17 @@ function App() {
             <div className="image">
                   <img className="image__img" src={Ash} alt="photo"/>
                   <div className="image__overlay image__overlay--primary">
-                    <div className="image__title">Ashish Mishra</div>
+                    <div className="image__title">Ashish Kumar Mishra</div>
                     <br/>
                     <div className="icon">
                     <a href="https://github.com/Ash1912" target="_blank">
-                          <img src={Git} height="28px" width="28px"/>
+                          <img src={Git} height="35px" width="35px"/>
                         </a>
                         <a href="https://www.linkedin.com/in/ashish-kumar-mishra-616321206" target="_blank">
-                          <img src={Link} height="28px" width="28px"/>
+                          <img src={Link} height="35px" width="35px"/>
                         </a>
                         <a href="https://instagram.com/a_s_h__1912?utm_medium=copy_link" target="_blank">
-                          <img src={Insta} height="28px" width="28px"/>
+                          <img src={Insta} height="35px" width="35px"/>
                         </a>
                   </div>
                 </div>
@@ -113,13 +113,13 @@ function App() {
                     <br/>
                     <div className="icon">
                     <a href=" https://github.com/Sidoryx" target="_blank">
-                          <img src={Git} height="28px" width="28px"/>
+                          <img src={Git} height="35px" width="35px"/>
                         </a>
                         <a href="https://www.linkedin.com/in/sidbanerjee510/" target="_blank">
-                          <img src={Link} height="28px" width="28px"/>
+                          <img src={Link} height="35px" width="35px"/>
                         </a>
                         <a href="https://twitter.com/sidstwt" target="_blank">
-                          <img src={Twit} height="28px" width="28px"/>
+                          <img src={Twit} height="35px" width="35px"/>
                         </a>
                   </div>
                 </div>
@@ -133,13 +133,13 @@ function App() {
                     <br/>
                     <div className="icon">
                     <a href="https://github.com/shreyanshrai2401" target="_blank">
-                          <img src={Git} height="28px" width="28px"/>
+                          <img src={Git} height="35px" width="35px"/>
                         </a>
                         <a href="https://www.linkedin.com/in/shreyansh-rai-0275221bb" target="_blank">
-                          <img src={Link} height="28px" width="28px"/>
+                          <img src={Link} height="35px" width="35px"/>
                         </a>
                         <a href="https://www.instagram.com/shreyanshrai2401/" target="_blank">
-                          <img src={Insta} height="28px" width="28px"/>
+                          <img src={Insta} height="35px" width="35px"/>
                         </a>
                   </div>
                 </div>
