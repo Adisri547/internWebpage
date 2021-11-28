@@ -27,6 +27,17 @@
   padding: 25px;
 }
 
+.Footer {
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 5px;
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  color:white;
+}
+
 .App-logo {
   width: 100px;
 }
@@ -106,7 +117,7 @@
 }
 
 .image__title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
 }
 

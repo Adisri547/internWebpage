@@ -147,6 +147,11 @@ function App() {
         
         </div>   
          
+        <div className="Footer">
+          <p>
+          Made with ❤️, ☕ and a bit of laziness.
+          </p>
+        </div>
             
        
       </Container>
