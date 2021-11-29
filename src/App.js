@@ -1,8 +1,7 @@
 import "./App.css";
-import logo from "./logo.svg";
 import { Row, Container, Col } from "react-bootstrap";
 import Adi from "../src/images/aditya.jpg";
-import Soh from "../src/images/soham.jpeg";
+import Soh from "../src/images/soham.jpg";
 import Ash from "../src/images/ashish.jpg";
 import Sid from "../src/images/sidNew.jpg";
 import Shrey from "../src/images/SHREYANSH.jpeg";
@@ -15,14 +14,9 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <div className="Header">
-          <a href="https://msc-codeportal.pages.dev/" target="_blank">
-            <img src={logo} className="App-logo" alt="logo" />
-          </a>
-        </div>
-
+        
         <div className="Row">
-          <div className="text1">
+          <div className="text t1">
             <p>
               The <br /> learners of...
             </p>
@@ -50,7 +44,7 @@ function App() {
             </div>
           </div>
 
-          <div className="text2">
+          <div className="text t2">
             <p>
               ..the project, <br /> Qode...
             </p>
@@ -102,7 +96,7 @@ function App() {
             </div>
           </div>
 
-          <div className="text3">
+          <div className="text t3">
             <p>
               ..from <br />
               MSC KIIT
