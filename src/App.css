@@ -108,11 +108,16 @@
 .image__title {
   font-size: 20px;
   font-weight: normal;
+  text-align: center;
 }
 
 .Row {
   display: flex;
   flex-direction: row;
+}
+
+.domain {
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 960px){
