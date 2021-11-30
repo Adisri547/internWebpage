@@ -1,8 +1,7 @@
 import "./App.css";
-import logo from "./logo.svg";
 import { Row, Container, Col } from "react-bootstrap";
 import Adi from "../src/images/aditya.jpg";
-import Soh from "../src/images/soham.jpeg";
+import Soh from "../src/images/soham.jpg";
 import Ash from "../src/images/ashish.jpg";
 import Sid from "../src/images/sidNew.jpg";
 import Shrey from "../src/images/SHREYANSH.jpeg";
@@ -15,14 +14,8 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <div className="Header">
-          <a href="https://msc-codeportal.pages.dev/" target="_blank">
-            <img src={logo} className="App-logo" alt="logo" />
-          </a>
-        </div>
-
         <div className="Row">
-          <div className="text1">
+          <div className="text t1">
             <p>
               The <br /> learners of...
             </p>
@@ -31,7 +24,9 @@ function App() {
           <div className="image">
             <img className="image__img" src={Adi} alt="photo" />
             <div className="image__overlay image__overlay--primary">
-              <div className="image__title">Aditya Srivastav</div>
+              <div className="image__title">
+                Aditya Srivastav <p className="domain">Designation: Learner</p>
+              </div>
               <br />
               <div className="icon">
                 <a href="https://github.com/Adisri547" target="_blank">
@@ -50,7 +45,7 @@ function App() {
             </div>
           </div>
 
-          <div className="text2">
+          <div className="text t2">
             <p>
               ..the project, <br /> Qode...
             </p>
@@ -59,7 +54,7 @@ function App() {
           <div className="image">
             <img className="image__img" src={Soh} alt="photo" />
             <div className="image__overlay image__overlay--primary">
-              <div className="image__title">Soham Dutta</div>
+              <div className="image__title">Soham Dutta<p className="domain">Designation: Learner</p></div>
               <br />
               <div className="icon">
                 <a href=" https://github.com/shm-dsgn" target="_blank">
@@ -80,29 +75,23 @@ function App() {
           <div className="image">
             <img className="image__img" src={Ash} alt="photo" />
             <div className="image__overlay image__overlay--primary">
-              <div className="image__title">Ashish Kumar Mishra</div>
+              <div className="image__title">Ashish Kumar Mishra<p className="domain">Designation: Learner</p></div>
               <br />
               <div className="icon">
                 <a href="https://github.com/Ash1912" target="_blank">
-                  <img src={Git} height="40px" width="40px" />
+                  <img src={Git} height="35px" width="35px" />
                 </a>
-                <a
-                  href="https://www.linkedin.com/in/ashish-kumar-mishra-616321206"
-                  target="_blank"
-                >
-                  <img src={Link} height="40px" width="40px" />
+                <a href="https://www.linkedin.com/in/ashish-kumar-mishra-616321206" target="_blank">
+                  <img src={Link} height="35px" width="35px" />
                 </a>
-                <a
-                  href="https://instagram.com/a_s_h__1912?utm_medium=copy_link"
-                  target="_blank"
-                >
-                  <img src={Insta} height="40px" width="40px" />
+                <a href="https://instagram.com/a_s_h__1912?utm_medium=copy_link" target="_blank">
+                  <img src={Insta} height="35px" width="35px" />
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="text3">
+          <div className="text t3">
             <p>
               ..from <br />
               MSC KIIT
@@ -113,7 +102,7 @@ function App() {
           <div className="image">
             <img className="image__img" src={Sid} alt="photo" />
             <div className="image__overlay image__overlay--primary">
-              <div className="image__title">Siddhant Banerjee</div>
+              <div className="image__title">Siddhant Banerjee<p className="domain">Designation: Learner</p></div>
               <br />
               <div className="icon">
                 <a href=" https://github.com/Sidoryx" target="_blank">
@@ -135,23 +124,23 @@ function App() {
           <div className="image">
             <img className="image__img" src={Shrey} alt="photo" />
             <div className="image__overlay image__overlay--primary">
-              <div className="image__title">Shreyansh Rai</div>
+              <div className="image__title">Shreyansh Rai<p className="domain">Designation: Learner</p></div>
               <br />
               <div className="icon">
                 <a href="https://github.com/shreyanshrai2401" target="_blank">
-                  <img src={Git} height="40px" width="40px" />
+                  <img src={Git} height="35px" width="35px" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/shreyansh-rai-0275221bb"
                   target="_blank"
                 >
-                  <img src={Link} height="40px" width="40px" />
+                  <img src={Link} height="35px" width="35px" />
                 </a>
                 <a
                   href="https://www.instagram.com/shreyanshrai2401/"
                   target="_blank"
                 >
-                  <img src={Insta} height="40px" width="40px" />
+                  <img src={Insta} height="35px" width="35px" />
                 </a>
               </div>
             </div>
